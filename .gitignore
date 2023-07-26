@@ -1,0 +1,13 @@
+node_modules
+package-lock.json
+.vscode
+.DS_Store
+
+#Hardhat files
+cache
+artifacts
+deployments/*/solcInputs
+
+.env
+coverage.json
+coverage

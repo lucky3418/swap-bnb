@@ -1,0 +1,40 @@
+{
+  "name": "swap-bnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "npx hardhat node --no-deploy",
+    "test": "TS_NODE_TRANSPILE_ONLY=1 npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MTI",
+  "devDependencies": {
+    "@gnosis.pm/safe-core-sdk": "^2.3.2",
+    "@gnosis.pm/safe-ethers-lib": "^1.4.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.5",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.13.0",
+    "hardhat-contract-sizer": "^2.8.0",
+    "hardhat-deploy": "^0.11.25",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "@openzeppelin/contracts-upgradeable": "^4.8.2"
+  }
+}
